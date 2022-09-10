@@ -1,0 +1,50 @@
+@font-face {
+    font-family: 'Montserrat-Regular';
+    font-weight: 400;
+    font-style: normal;
+    src: local('Montserrat-Regular'),
+        url('../fonts/Montserrat-Regular.woff2') format('font-woff2'),
+        url('../fonts/Montserrat-Regular.woff') format('font-woff');
+    font-display: swap;
+}
+  
+  @font-face {
+      font-family: 'Montserrat-Bold';
+      font-weight: 700;
+      font-style: normal;
+      src: local('Montserrat-Bold'),
+          url('../fonts/Montserrat-Bold.woff2') format('font-woff2'),
+          url('../fonts/Montserrat-Bold.woff') format('font-woff');
+      font-display: swap;
+  } 
+   
+  @font-face {
+    font-family: 'BebasNeue-Regular';
+    font-weight: 400;
+    font-style: normal;
+    src: local('BebasNeue-Regular'),
+        url('../fonts/BebasNeue-Regular.woff2') format('font-woff2'),
+        url('../fonts/BebasNeue-Regular.woff') format('font-woff');
+    font-display: swap;
+}  
+ 
+@font-face {
+    font-family: 'BebasNeue-Bold';
+    font-weight: 700;
+    font-style: normal;
+    src: local('BebasNeue-Bold'),
+        url('../fonts/BebasNeue-Bold.woff2') format('font-woff2'),
+        url('../fonts/BebasNeue-Bold.woff') format('font-woff');
+    font-display: swap;
+} 
+
+ 
+@font-face {
+    font-family: 'AlfaSlabOne-Regular';
+    font-weight: 400;
+    font-style: normal;
+    src: local('AlfaSlabOne-Regular'),
+        url('../fonts/AlfaSlabOne-Regular.woff2') format('font-woff2'),
+        url('../fonts/AlfaSlabOne-Regular.woff') format('font-woff');
+    font-display: swap;
+} 
