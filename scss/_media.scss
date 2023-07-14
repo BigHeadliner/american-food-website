@@ -1,0 +1,1110 @@
+@media(max-width: 1298px){ 
+    .slide__slider-title {
+        font-size: 35px;    
+    }
+}  
+  
+ 
+@media(max-width: 1253px){  
+      
+     // ----- benefits -----//    
+
+    .benefits__main { 
+        grid-template-columns: 1fr 1fr; 
+        width: auto; 
+        grid-gap: 30px;
+    }    
+
+}
+  
+@media(max-width: 1233px){      
+      
+    //-----  reservation  -----//
+
+    .reservation__decor-burger {
+        position: absolute;
+        top: 70px;
+        right: 61px; 
+    }
+ 
+     
+    .reservation__decor-bottle {
+        position: absolute;
+        bottom: 7px;
+        left: 25px;
+    }
+} 
+
+ 
+@media(max-width: 1230px){    
+     
+     // ----- options -----  // 
+    
+    .options__items{ 
+        margin-bottom: 123px;
+    }
+  
+    // ----- slide -----  //
+
+    .slide__slider-item-inner{ 
+       flex-wrap: wrap; 
+       justify-content: center;
+    }     
+     
+    .slide__slider-text {
+        max-width: 100%;
+        order: 1;
+    } 
+     
+    .slide__slider .slick-dots {
+        position: absolute;
+        left: 320px;
+        bottom: 307px;
+    }
+ 
+
+} 
+
+ 
+@media(max-width: 1180px){  
+      
+    // ----- header -----//    
+       
+    .header__main-title{ 
+    padding-right: 10px;
+ } 
+ 
+ .header__main-shadow-b,
+ .header__main-shadow-d{ 
+    display: none;
+ }  
+  
+   // ----- benefits -----//    
+
+   .benefits__main { 
+    grid-template-columns: 1fr;   
+    grid-row: initial;
+    grid-template-rows: repeat(3, 33%);
+}    
+ 
+.benefits__benefit1,  
+.benefits__benefit2, 
+.benefits__benefit3{ 
+    max-width: 100%;
+} 
+
+ 
+ .benefits__benefit1{ 
+    grid-row: initial;
+ } 
+   
+  
+  //-----  options  -----//
+
+ .options__option{ 
+    margin: 0 17px; 
+} 
+
+}  
+  
+ 
+@media(max-width:1150px){  
+     
+    //-----  reservation  -----//
+
+    .reservation__form { 
+        margin-bottom: 130px;
+    }
+} 
+
+ 
+@media(max-width: 1130px){     
+     
+   //-----  options  -----//
+
+    .options__items{ 
+        display: flex;  
+        flex-wrap: wrap;
+        justify-content: space-around;  
+         
+        .options__option{ 
+            margin: 37px 17px; 
+        } 
+    } 
+      
+      //-----  slide  -----//  
+
+    .slide__slider .slick-dots {
+        position: absolute;
+        left: 253px;
+        bottom: 307px;
+    }
+
+  
+} 
+ 
+ 
+@media(max-width: 1030px){    
+   
+    // ----- footer -----//    
+     
+    .footer__text { 
+        margin: 30px 35px 0 0;
+    } 
+     
+    .footer__contacts{  
+
+        margin: 30px 25px 0 0;
+    }
+
+} 
+
+ 
+@media(max-width: 1100px){   
+     
+     // ----- header -----//  
+
+    .header__main-title {
+        font-size: 109px; 
+    } 
+     
+      
+    // -----  reservation -----//   
+
+    .reservation__decor-burger {
+        position: absolute;
+        top: 70px;
+        right: 4px;
+    } 
+     
+    .reservation__decor-bottle {
+        position: absolute;
+        bottom: 7px;
+        left: 0px;
+    } 
+      
+      // -----  footer -----//    
+
+    .footer__contacts {
+      
+        margin-right: 25px; 
+    } 
+
+} 
+ 
+ 
+@media(max-width: 1015px){   
+     
+    // ----- header -----//  
+
+   .header__main-title {
+       font-size: 100px; 
+   } 
+    
+   //----- benefits -----//  
+    
+   .benefits__benefit1-title, .benefits__benefit2-title, .benefits__benefit3-title {
+    margin: 0 0 170px 25px; 
+}
+     
+ //----- slide -----//    
+
+.slide__slider .slick-dots {
+    position: absolute;
+    left: 207px;
+    bottom: 307px;
+} 
+  
+//-----   options -----// 
+
+.options__items {
+    margin-bottom: 50px;
+}  
+ 
+//----- footer -----//
+
+.footer__content-contacts { 
+    flex-wrap: wrap; 
+} 
+ 
+.footer__text{ 
+    margin-right: 35px;
+}
+
+
+} 
+  
+ 
+@media(max-width: 998px) { 
+      
+    //-----  slide -----// 
+
+    .slide__slider .slick-dots {
+        position: absolute;
+        left: 207px;
+        bottom: 318px;
+    }  
+     
+      //-----  reservation -----//   
+
+    .reservation__decor-burger {
+        position: absolute;
+        top: 70px;
+        right: 1px;
+    } 
+     
+    .reservation__decor-bottle {
+        position: absolute;
+        bottom: 7px;
+        left: -14px;
+    }
+
+} 
+ 
+ 
+@media(max-width: 960px){    
+     
+     //-----  reservation -----//   
+
+     .reservation__decor-burger {
+        display:none;
+    } 
+     
+    .reservation__decor-bottle {
+        display:none;
+    } 
+     
+    .reservation__inner {
+        padding-top: 67px;
+    }
+
+}
+
+ 
+@media(max-width: 953px){   
+     
+    // ----- header -----//  
+
+   .header__main-title {
+       font-size: 90px;  
+       padding-right: 15px;
+   } 
+    
+   .header__main-price-inner {
+    width: 150px;
+    height: 150px; 
+ } 
+  
+//  .header__main-price-inner .big {
+//     font-size: 57px;
+//     position: absolute;
+//     bottom: 71px;
+//     left: 22px;
+// }
+   
+// .header__main-price-inner .small {
+//     font-size: 38px;
+//     position: absolute;
+//     bottom: 65px;
+//     right: 28px;
+// } 
+ 
+// .header__main-price-inner .text {
+//     font-size: 38px;
+//     position: absolute;
+//     bottom: 26px;
+//     left: 35px;
+// }  
+ 
+.header__top-delivery {
+    position: absolute;
+    top: 23px;
+    right: 17px;
+}
+ 
+.header__main-img {
+    padding-right: 14px;
+}   
+ 
+  
+// -----   slide  -----//
+
+.slide__slider .slick-dots {
+    position: absolute;
+    left: 155px;
+    bottom: 343px;
+} 
+
+
+}  
+ 
+
+ 
+@media(max-width: 850px){    
+  
+ // ----- header -----//     
+   
+  .header__top{ 
+    align-items: center;
+  }
+
+ .header__top-delivery {
+    position: absolute;
+    top: 25px;
+    right: 17px;
+} 
+ 
+.header .menu .menu__btn {
+    display: block;  
+ }
+  
+ .header .menu .menu__list {
+    display: block;
+    position: absolute;
+    top: 119px;
+    left: -15px;
+    right: -15px;
+    background-color: #3d2514;
+    text-align: center;
+    padding: 20px 0;
+    transform: translateY(-500px);
+    transition: all .5s;  
+    z-index: 50; 
+     
+  
+    .menu__item{ 
+        padding: 17px 0;
+    } 
+
+    .menu__item + .menu__item {
+        margin-left: 0;
+    }  
+     
+    .menu__link {
+        font-size: 24px;
+        color:  $white;
+    }
+}
+      
+.header .menu .menu__list.menu__list--active{ 
+    transform: translateY(0);
+}
+   
+.header__main-price {
+    width: 140px;
+    height: 140px; 
+}    
+ 
+.header__main-price-inner {
+    width: 140px;
+    height: 140px;
+}   
+
+.header__main-price-inner .big {
+    font-size: 37px;
+    position: absolute;
+    bottom: 65px;
+    left: 9px;
+} 
+ 
+.header__main-price-inner .small {
+    font-size: 32px;
+    position: absolute;
+    bottom: 62px;
+    right: 23px;
+} 
+   
+.header__main-price-inner .text {
+    font-size: 30px;
+    position: absolute;
+    bottom: 27px;
+    left: 29px;
+}
+ 
+  
+   //----- benefits -----//  
+
+ .benefits { 
+    padding-top: 50px;
+ }
+ 
+    
+  .benefits__benefit1-title, .benefits__benefit2-title, .benefits__benefit3-title {
+    margin: 0 0 90px 25px; 
+}
+
+}  
+  
+
+ 
+@media(max-width:830px){   
+
+    // -----   options -----  // 
+     
+ 
+ .options__items .options__option{
+     margin: 45px 17px; 
+     border: 3px solid #bf2222;  
+     padding: 25px 15px;
+    } 
+     
+ .options__items .options__option--position {
+        padding: 289px 15px 25px;
+    } 
+     
+      
+    //-----  slide  -----//
+
+    .slide__slider .slick-dots {
+        position: absolute;
+        left: 97px;
+        bottom: 347px;
+    }  
+     
+      //-----  reservation  -----//
+ 
+    .reservation__title {
+        margin-bottom: 70px;  
+    }     
+     
+    .reservation__form {
+        padding: 0 19px;     
+        grid-template-columns: repeat(1,1fr);
+        grid-template-rows: repeat(6, 1fr);
+        row-gap: 23px; 
+        width: auto;
+    } 
+     
+    .reservation__input { 
+        max-width: 100%;
+    } 
+
+}  
+
+ 
+@media(max-width: 780px){     
+     
+    //----- header -----// 
+     
+    .header__main-suptitle {
+        font-size: 18px;
+    } 
+     
+    .header__main-title {
+        font-size: 77px; 
+    } 
+     
+    .header__main-subtitle {
+        font-size: 50px; 
+    }
+   
+    .header__top-delivery {
+        position: absolute;
+        top: 25px;
+        right: 27px;
+    }   
+     
+     
+    // ----- slide -----//
+     
+    .slide__slider .slick-dots {
+        position: absolute;
+        left: 69px;
+        bottom: 368px;
+    }
+
+ }  
+  
+ @media(max-width: 740px){       
+    
+    //----- header -----//  
+
+    .header__main-price {
+        width: 109px;
+        height: 109px;
+    }  
+     
+    .header__main-price-inner {
+        width: 109px;
+        height: 109px;
+        position: relative;
+    } 
+     
+    .header__main-price-inner .big {
+        font-size: 25px;
+        position: absolute;
+        bottom: 53px;
+        left: 19px;
+    } 
+     
+    .header__main-price-inner .small {
+        font-size: 21px;
+        position: absolute;
+        bottom: 49px;
+        right: 20px;
+    } 
+     
+    .header__main-price-inner .text {
+        font-size: 25px;
+        position: absolute;
+        bottom: 21px;
+        left: 14px;
+    } 
+     
+    .header__top-delivery {
+        position: absolute;
+        top: 20px;
+        right: 27px;
+    }
+ 
+    .header__main-suptitle {
+        margin-bottom: 65px;
+    }  
+     
+    .header__main-title {
+        font-size: 70px;
+    } 
+     
+    .header__main-subtitle {
+        font-size: 47px;
+    }
+   
+    //----- slide ----- //
+
+    .slide__slider-title {
+        font-size: 39px;
+        text-transform: uppercase;
+        color: #3d2514;
+        margin-bottom: 25px;
+    } 
+     
+
+ } 
+  
+  
+ @media(max-width: 700px){         
+   
+       //----- header -----//  
+ 
+
+    .header__main-suptitle {
+        margin-bottom: 53px; 
+        font-size: 15px;
+    } 
+     
+    .header__main-title {
+        font-size: 64px;
+    } 
+     
+    .header__main-subtitle {
+        font-size: 44px;
+    } 
+       
+      
+    //-----  footer  -----//
+
+    
+    .footer__logo-img {
+        margin-bottom: 17px;
+    }  
+     
+    .footer__content-contacts { 
+        margin-bottom: 130px;
+    }
+
+ }   
+  
+  
+ @media(max-width: 650px){    
+       
+    // ----- options -----/
+
+    .options__suptitle {
+        margin: 15px auto 53px;
+    } 
+     
+    .options__title {
+        margin-bottom: 50px;   
+        line-height: 57px;
+    }  
+     
+    .options__top-text {
+        max-width: 1070px;
+        margin: 0 auto 53px;
+    }
+     
+    .options__items .options__option {
+        margin: 40px 17px;
+    }  
+      
+     
+    //-----  slide -----//
+
+     
+    .slide__slider-title {
+        font-size: 35px; 
+    }
+  
+    .slide__slider-paragraph {
+        font-size: 18px; 
+    } 
+
+    
+ } 
+  
+
+  
+ @media(max-width: 640px){       
+     
+    .header__top {
+       margin-bottom: 0;
+    } 
+     
+    .header__top-delivery {
+        position: absolute;
+        top: 14px;
+        right: 27px;
+    } 
+
+    .header__main {
+        display: block; 
+        padding-bottom: 37px;
+    }  
+     
+    .header__main-title {
+       margin-bottom: 56px;
+    } 
+     
+    .header__main-content{ 
+        text-align: center;  
+        margin-bottom: 10px;
+    } 
+     
+    .header__main-price {
+        width: 119px;
+        height: 119px; 
+        position: absolute;
+        bottom: 35px;
+        left: 71px;
+    } 
+     
+    .header__main-price-inner {
+        width: 119px;
+        height: 119px;
+        position: relative; 
+        border: none;
+    } 
+      
+    .header__main-price-inner .big {
+        font-size: 30px;
+        position: absolute;
+        bottom: 57px;
+        left: 23px;
+    } 
+     
+    .header__main-price-inner .small {
+        font-size: 22px;
+        position: absolute;
+        bottom: 53px;
+        right: 21px;
+    }  
+     
+    .header__main-price-inner .text {
+        font-size: 27px;
+        position: absolute;
+        bottom: 23px;
+        left: 15px;
+    } 
+      
+
+    //----- benefits -----//  
+
+ 
+  .benefits__benefit1-title, .benefits__benefit2-title, .benefits__benefit3-title {
+    margin: 0 0 80px 25px; 
+  }
+ 
+   
+  //-----  reservation  -----//
+
+  .reservation__form {
+    margin-bottom: 100px;
+}  
+  
+ //-----  footer  -----// 
+
+.footer__content-contacts {
+    margin-bottom: 100px;
+}
+
+ }     
+   
+  
+
+    
+ @media(max-width: 625px){    
+     
+    //-----  slide   -----//
+  
+    
+ .slide__slider-item-inner {
+    padding: 0;
+  }   
+    
+    
+  //-----  footer  -----// 
+
+  .footer__text { 
+    margin: 30px 0 30px 0;
+  }
+      
+  .footer__bottom{ 
+    align-items: center;
+  } 
+
+  .footer__content-contacts {
+    margin-bottom: 50px;
+ }    
+  
+ .footer__copyright{ 
+    padding-right: 10px;
+ }
+
+
+ }   
+
+   
+ 
+  
+
+  
+ @media(max-width: 599px){    
+      
+    //---- options -----// 
+
+    .options__items {
+        margin-bottom: 35px;
+    }
+        
+     //---- slide -----// 
+
+    .slide__slider-suptitle{ 
+        font-size: 25px;
+    }  
+     
+    .slide__slider-title { 
+        font-size: 33px;
+    } 
+      
+    //-----   reservation  -----//
+
+    .reservation__suptitle {
+        font-size: 29px;  
+        margin-bottom: 27px;
+    } 
+     
+    .reservation__title {
+        margin-bottom: 50px; 
+        font-size: 45px;
+    }  
+      
+     //-----  footer  -----//   
+      
+     .footer__inner {
+        padding: 50px 30px 20px 30px;
+    } 
+      
+     .footer__bottom{  
+        display: flex;
+        flex-wrap: wrap-reverse;
+     }
+
+    .footer__copyright {  
+        margin: 30px 35px 0 0; 
+       
+    }  
+     
+    .footer__bottom .footer__social-list{ 
+        margin-top: 35px; 
+       
+    } 
+     
+  
+
+  } 
+    
+   
+  @media(max-width: 538px){     
+    
+    //-----   reservation  -----//
+
+    .reservation__title {
+        margin-bottom: 35px;
+        font-size: 41px;
+    }  
+     
+    .reservation__btn { 
+        max-width: 279px;
+    } 
+
+
+  } 
+
+
+  @media(max-width: 495px){     
+  
+    //----- slide -----//
+
+    .slide__slider-text { 
+        padding: 40px 5px 0;    
+       } 
+
+  } 
+
+  
+ @media(max-width: 489px){     
+
+    //----- benefits -----//  
+
+  .benefits__benefit1-title, .benefits__benefit2-title, .benefits__benefit3-title {
+    margin: 0 0 63px 25px; 
+}   
+
+//   ----- options -----//
+.options__top-text {
+    margin: 0 auto 25px;
+}  
+ 
+.options__items .options__option {
+    margin: 34px 0;
+} 
+ 
+//   ----- footer -----//  
+
+ .footer__text{ 
+    font-size: 15px;
+ }
+
+   }
+  
+ @media(max-width: 470px){      
+      
+    .header__top-delivery {
+        position: absolute;
+        top: 14px;
+        right: 27px;
+        font-size: 14px;
+    }  
+     
+    .header__top-delivery-img{ 
+        display: none;
+    }
+     
+    .header .menu {
+        padding-left: 31px;
+    } 
+     
+    .header__main-content {
+        margin-bottom: 15px;
+    }
+    
+    .header__main-title{ 
+        font-size: 63px;
+    } 
+    
+    .header__main-price {
+        width: 119px;
+        height: 119px;
+        position: absolute;
+        bottom: -27px;
+        left: 5px;
+    }  
+       
+   //----- slide -----//
+
+    .slide__slider-title{ 
+        font-size: 28px; 
+        margin-bottom: 18px;
+    } 
+     
+    //-----  reservation  -----//  
+
+    .reservation__suptitle {
+        font-size: 25px;
+        margin-bottom: 22px;
+    } 
+     
+    .reservation__title {
+        margin-bottom: 32px;
+        font-size: 33px;
+    } 
+      
+     
+     //-----  footer  -----//  
+
+   
+    .footer__contacts-location, .footer__contacts-mail {
+       
+        font-size: 18px; 
+    } 
+
+    
+ }  
+  
+  
+ @media(max-width:430px){  
+   
+    //----- options ----- //
+
+    .options__suptitle {
+        margin: 15px auto 40px;
+    }  
+     
+    //-----   reservation  -----//   
+     
+    .reservation__suptitle {
+        font-size: 24px;
+        margin-bottom: 10px;
+    } 
+     
+    .reservation__title {
+        margin-bottom: 32px;
+        font-size: 30px;
+        line-height: 34px;
+    }
+
+    .reservation__form { 
+        padding: 0; 
+        row-gap: 18px;
+    }
+  
+     
+    //-----  footer ----- //
+
+    .footer__content-contacts {
+        margin-bottom: 18px;
+    }  
+     
+    .footer__logo-img{ 
+        width: 70%;
+    }
+
+ }
+
+  
+ @media(max-width: 417px){          
+     
+    //----- benefits -----//    
+
+     .benefits__benefit1-title, .benefits__benefit2-title, .benefits__benefit3-title {
+        margin: 0 0 39px 25px;   
+        font-size: 38px;
+    }    
+       
+     //----- options -----//    
+    .options__items{ 
+        padding: 0;
+    } 
+     
+     
+     //----- footer -----//  
+ 
+     .footer__inner {
+        padding: 40px 10px 20px 10px;
+    } 
+     
+    .footer__logo-img{ 
+        width: 70%; 
+        margin: 0 auto;
+    } 
+     
+    .footer__text {
+        font-size: 15px; 
+        margin: 33px 5px 0px 5px;
+    } 
+     
+    .footer__content-contacts {
+        margin-bottom: 18px;
+    } 
+     
+    .footer__contacts-location, .footer__contacts-mail {
+        font-size: 18px;
+    } 
+     
+    .footer__bottom{ 
+        justify-content: center;
+    } 
+     
+    .footer__bottom .footer__social-list {
+        margin: 35px 0 30px;
+    } 
+     
+    .footer__copyright{ 
+        margin: 23px auto;
+    }
+
+ }   
+  
+ @media(max-width: 385px){      
+     
+    //  footer
+    
+    .footer__contacts-location::before {
+        content: "";
+        position: absolute;
+        top: 4px;
+        left: 3px; 
+    }  
+      
+    .footer__contacts-location,  
+    .footer__contacts-mail {
+        font-size: 14px; 
+    } 
+    
+ }
+  
+ @media(max-width: 370px){        
+      
+    //---- header ----//
+
+    .header__main-price{ 
+        display: none;
+    }
+   
+    //----- options -----//   
+     
+    .options__items .options__option {
+        padding: 25px 7px;
+    }
+     
+    .options__items .options__option--position {
+        padding: 289px 7px 25px;
+    } 
+     
+    .options__img {
+        position: absolute;
+        bottom: 18px;
+        right: 18px;
+    } 
+     
+    .options__text{
+         font-size: 15px;
+    }
+  
+    //----- slide -----// 
+
+    .slide__slider-suptitle { 
+        margin-bottom: 10px;
+    } 
+ 
+    
+   .slide__slider-title {
+      font-size: 24px; 
+    } 
+     
+    .slide__slider-paragraph {
+        font-size: 17px; 
+    }
+
+ }
+
